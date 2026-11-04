@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield / Hexagonal Emblem Glow -->
+    <path
+        android:pathData="M54,24 L78,38 L78,70 L54,84 L30,70 L30,38 Z"
+        android:strokeWidth="1.8"
+        android:strokeColor="#66F5C842"
+        android:fillColor="#15F5C842" />
+
+    <!-- Radiant Gold Crown / Crest at Top -->
+    <path
+        android:pathData="M42,32 L54,26 L66,32 L62,38 L46,38 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="26"
+                android:endX="66"
+                android:endY="38"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFE27A" />
+                <item android:offset="1.0" android:color="#FFF5A623" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Master Infinity Loop (Moneyverse Symbol) -->
+    <path
+        android:pathData="M41,44 C34,44 28,49 28,55 C28,61 34,66 41,66 C47,66 51,61 54,55 C57,61 61,66 67,66 C74,66 80,61 80,55 C80,49 74,44 67,44 C61,44 57,49 54,55 C51,49 47,44 41,44 Z M41,50 C44,50 47,52 49,55 C47,58 44,60 41,60 C38,60 34,58 34,55 C34,52 38,50 41,50 Z M67,50 C70,50 74,52 74,55 C74,58 70,60 67,60 C64,60 61,58 59,55 C61,52 64,50 67,50 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="44"
+                android:endX="80"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFF3B3" />
+                <item android:offset="0.3" android:color="#FFF5C842" />
+                <item android:offset="0.7" android:color="#FFD49A1F" />
+                <item android:offset="1.0" android:color="#FFF5C842" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Diamond Sparkle -->
+    <path
+        android:pathData="M54,51 L56.5,55 L54,59 L51.5,55 Z"
+        android:fillColor="#FFFFFFFF" />
+</vector>

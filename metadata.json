@@ -1,0 +1,6 @@
+{
+  "name": "Moneyverse",
+  "description": "Elite intelligence and execution engine for wealth creation, business empire building, and strategic financial freedom.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
